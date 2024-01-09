@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        .wrapper {
+            display: block;
+            text-align: center;
+            list-style: none;
+        }
+        .list {
+            list-style: none;
+        }
+        .footer {
+            text-align: center;
+        }
+    </style>
+    <title>New Houses Found</title>
+</head>
+<body>
+<div class="wrapper">
+    <img alt="Home Finder" src="https://raw.githubusercontent.com/WeRules/home-finder/main/content/assets/base_site_image.png" style="max-width:600px;width:100%;text-align:center" />
+    <p>Hooray! We just found some new houses matching your parameters</p>
+    <ul class="list">
+        {{LINKS_LIST}}
+    </ul>
+</div>
+</body>
+<footer class="footer">
+    <p><a href="https://werules.github.io/home-finder/admin?secret={{SECRET}}">Click here to unsubscribe to this e-mails.</a></p>
+    <p>Do you like this project? <a href="https://bunq.me/BuyMeASoda" rel="noreferrer" target="_blank">🥤 Buy me a soda</a></p>
+</footer>
+</html>
